@@ -1,13 +1,61 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
+import logo from "../../../assets/logo.png"
+import Gradient from "../../Gradient/Gradient";
+import { FaGithub } from "react-icons/fa";
 
 
 const Navbar = () => {
 
     const navItems = <>
-        <li><NavLink to ="/">Home</NavLink> </li>
-        <li><NavLink to ="/apps">Apps</NavLink> </li>
-        <li><NavLink to ="/installation">Installation</NavLink> </li>
+        <li>
+            <NavLink
+                to="/"
+                className={({ isActive }) =>
+                    isActive ? "font-semibold" : ""   // ✅ remove default styling, keep minimal
+                }
+            >
+                {({ isActive }) =>
+                    isActive ? (
+                        <Gradient>Home</Gradient>   // ✅ show gradient ONLY when active
+                    ) : (
+                        "Home"
+                    )
+                }
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/apps"
+                className={({ isActive }) =>
+                    isActive ? "font-semibold" : ""   // ✅ remove default styling, keep minimal
+                }
+            >
+                {({ isActive }) =>
+                    isActive ? (
+                        <Gradient>Apps</Gradient>   // ✅ show gradient ONLY when active
+                    ) : (
+                        "Apps"
+                    )
+                }
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/installation"
+                className={({ isActive }) =>
+                    isActive ? "font-semibold" : ""   // ✅ remove default styling, keep minimal
+                }
+            >
+                {({ isActive }) =>
+                    isActive ? (
+                        <Gradient>Installation</Gradient>   // ✅ show gradient ONLY when active
+                    ) : (
+                        "Installation"
+                    )
+                }
+            </NavLink>
+        </li>
 
 
     </>
@@ -27,17 +75,32 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link to="/">
+                    <div className="flex items-center gap-1 text-">
+
+                        <img className="w-10 h-10" src={logo} alt="" />
+                        <p className="font-bold"><Gradient>HERO.IO</Gradient></p>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                  {
-                    navItems
-                  }
+                    {
+                        navItems
+                    }
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a
+                    href="https://github.com/NazrulBoston"  // ✅ GitHub URL
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-white 
+               bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90 transition"
+                >
+                    <FaGithub />
+                    Contribute
+                </a>
             </div>
         </div>
     );
