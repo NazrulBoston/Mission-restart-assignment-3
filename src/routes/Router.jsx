@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router";
 import Root from "../pages/RootLayout/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
+import Apps from "../pages/Apps/Apps";
+import Installation from "../pages/Installation/Installation";
+
 
 
 
@@ -17,7 +20,12 @@ import Home from "../pages/Home/Home";
             Component: Home
         },
         {
-            
+            path:'/apps',
+            element:<Apps></Apps>
+        },
+        {
+            path:'/installation',
+            element:<Installation></Installation>
         }
     ]
   },
