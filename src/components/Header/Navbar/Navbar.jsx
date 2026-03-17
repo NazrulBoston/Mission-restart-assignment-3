@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router";
 
 import logo from "../../../assets/logo.png"
-import Gradient from "../../Gradient/Gradient";
+import Gradient from "../../Gradient/GradientText";
 import { FaGithub } from "react-icons/fa";
 
 

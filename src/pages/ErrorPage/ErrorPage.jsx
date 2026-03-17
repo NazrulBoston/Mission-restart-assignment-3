@@ -1,9 +1,9 @@
-
+import errorImage from '../../assets/error-404.png'
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1 className="text-center text-5xl">Page Not Found</h1>
+        <div className='flex justify-center mt-10'>
+           <img  src={errorImage} alt="" />
         </div>
     );
 };
