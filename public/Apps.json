@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/seed/todo/512/512",
+    "title": "TaskMaster",
+    "companyName": "OrganizeIt",
+    "id": 1,
+    "description": "Smart to‑do list and task organizer.",
+    "size": 21,
+    "reviews": 840,
+    "ratingAvg": 4.3,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/meditation/512/512",
+    "title": "CalmMind",
+    "companyName": "Zen Labs",
+    "id": 2,
+    "description": "Meditation and mindfulness for daily peace.",
+    "size": 29,
+    "reviews": 1300,
+    "ratingAvg": 4.7,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 765 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/langlearn/512/512",
+    "title": "LingoLearn",
+    "companyName": "Polyglot Co.",
+    "id": 3,
+    "description": "Learn languages with fun daily lessons.",
+    "size": 42,
+    "reviews": 1570,
+    "ratingAvg": 4.5,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/weatherplus/512/512",
+    "title": "WeatherPlus",
+    "companyName": "SkyCast",
+    "id": 4,
+    "description": "Accurate weather forecast with radar maps.",
+    "size": 35,
+    "reviews": 2210,
+    "ratingAvg": 4.6,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 1095 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/recipebox/512/512",
+    "title": "RecipeBox",
+    "companyName": "Kitchenware Inc.",
+    "id": 5,
+    "description": "Save and organize your favorite recipes.",
+    "size": 30,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 115000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 95 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/petcare/512/512",
+    "title": "PetCare",
+    "companyName": "Furriends",
+    "id": 6,
+    "description": "Pet health, reminders, and care tips.",
+    "size": 26,
+    "reviews": 760,
+    "ratingAvg": 4.2,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 265 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/musicpad/512/512",
+    "title": "MusicPad",
+    "companyName": "Rhythm Labs",
+    "id": 7,
+    "description": "Compose beats and tracks on the go.",
+    "size": 50,
+    "reviews": 1330,
+    "ratingAvg": 4.3,
+    "downloads": 175000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/cyclist/512/512",
+    "title": "CycleTracker",
+    "companyName": "RideSmart",
+    "id": 8,
+    "description": "Track your rides and cycling fitness stats.",
+    "size": 44,
+    "reviews": 1110,
+    "ratingAvg": 4.5,
+    "downloads": 138000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/bookclub/512/512",
+    "title": "BookClub",
+    "companyName": "ReadMore",
+    "id": 9,
+    "description": "Connect with readers and share books.",
+    "size": 28,
+    "reviews": 890,
+    "ratingAvg": 4.1,
+    "downloads": 91000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/greenhome/512/512",
+    "title": "GreenHome",
+    "companyName": "EcoTech",
+    "id": 10,
+    "description": "Tips for living sustainably every day.",
+    "size": 31,
+    "reviews": 720,
+    "ratingAvg": 4.0,
+    "downloads": 78000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/newsflash/512/512",
+    "title": "NewsFlash",
+    "companyName": "Global Pulse",
+    "id": 11,
+    "description": "Latest headlines from around the world.",
+    "size": 37,
+    "reviews": 1540,
+    "ratingAvg": 4.4,
+    "downloads": 240000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/shoppinglist/512/512",
+    "title": "ShopList",
+    "companyName": "EasyBuy",
+    "id": 12,
+    "description": "Create and share your shopping lists easily.",
+    "size": 22,
+    "reviews": 640,
+    "ratingAvg": 4.2,
+    "downloads": 71000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 235 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/healthhub/512/512",
+    "title": "HealthHub",
+    "companyName": "WellSpring",
+    "id": 13,
+    "description": "Personal health tracker and wellness tips.",
+    "size": 41,
+    "reviews": 1590,
+    "ratingAvg": 4.5,
+    "downloads": 198000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 205 },
+      { "name": "4 star", "count": 630 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/drive/512/512",
+    "title": "DriveSafe",
+    "companyName": "AutoGuard",
+    "id": 14,
+    "description": "Safety alerts and drive analytics for every trip.",
+    "size": 47,
+    "reviews": 1220,
+    "ratingAvg": 4.3,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 75 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/learncode/512/512",
+    "title": "CodeLearn",
+    "companyName": "DevWorks",
+    "id": 15,
+    "description": "Interactive coding challenges and lessons.",
+    "size": 54,
+    "reviews": 1710,
+    "ratingAvg": 4.6,
+    "downloads": 225000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/fitmeals/512/512",
+    "title": "FitMeals",
+    "companyName": "NutriPlan",
+    "id": 16,
+    "description": "Healthy meal plans and recipes.",
+    "size": 33,
+    "reviews": 1040,
+    "ratingAvg": 4.2,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/cryptotracker/512/512",
+    "title": "CryptoTracker",
+    "companyName": "BlockFinance",
+    "id": 17,
+    "description": "Real‑time cryptocurrency prices and alerts.",
+    "size": 39,
+    "reviews": 2130,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/artstudio/512/512",
+    "title": "ArtStudio",
+    "companyName": "CreativeSoft",
+    "id": 18,
+    "description": "Drawing tools and sketchbook for artists.",
+    "size": 58,
+    "reviews": 1420,
+    "ratingAvg": 4.4,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/budgetcoach/512/512",
+    "title": "BudgetCoach",
+    "companyName": "FinanceWise",
+    "id": 19,
+    "description": "Money tips and budget coaching on‑the‑go.",
+    "size": 29,
+    "reviews": 1120,
+    "ratingAvg": 4.3,
+    "downloads": 145000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/parkfinder/512/512",
+    "title": "ParkFinder",
+    "companyName": "ExploreMore",
+    "id": 20,
+    "description": "Locate parks, trails and outdoor spots near you.",
+    "size": 36,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 295 }
+    ]
+  }
+]

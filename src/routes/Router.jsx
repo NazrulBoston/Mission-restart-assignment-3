@@ -9,24 +9,25 @@ import Installation from "../pages/Installation/Installation";
 
 
 
- export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: Root,
-    errorElement:<ErrorPage></ErrorPage>,
-    children:[
-        {
-            index: true,
-            Component: Home
-        },
-        {
-            path:'/apps',
-            element:<Apps></Apps>
-        },
-        {
-            path:'/installation',
-            element:<Installation></Installation>
-        }
-    ]
-  },
+export const router = createBrowserRouter([
+    {
+        path: "/",
+        Component: Root,
+        errorElement: <ErrorPage></ErrorPage>,
+        children: [
+            {
+                index: true,
+                Component: Home
+            },
+            {
+                path: '/apps',
+                loader: () => fetch('/Apps.json'),
+                element: <Apps />
+            },
+            {
+                path: '/installation',
+                element: <Installation></Installation>
+            },
+        ]
+    },
 ]);
