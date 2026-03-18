@@ -7,7 +7,7 @@ import bannerImage from '../../assets/hero copy.png';
 
 const Banner = () => {
     return (
-        <div className="my-4">
+        <div className="mt-4">
             <div className=" flex flex-col justify-center items-center">
 
                 <div className="text-center">
@@ -46,7 +46,7 @@ const Banner = () => {
                         </div>
                 </div>
                 <div className="mt-3">
-                    <img src={bannerImage} alt="Banner Image" />
+                    <img className="w-[680px]" src={bannerImage} alt="Banner Image" />
                 </div>
             </div>
         </div>
