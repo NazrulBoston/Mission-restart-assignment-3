@@ -4,11 +4,14 @@ import './index.css'
 
 import { RouterProvider } from 'react-router'
 import { router } from './routes/Router'
+import InstallProvider from './context/InstallContext'
 
 createRoot(document.getElementById('root')).render(
   <div className='max-w-7xl mx-auto'>
     <StrictMode>
-      <RouterProvider router={router}></RouterProvider>
+      <InstallProvider>
+        <RouterProvider router={router}></RouterProvider>
+      </InstallProvider>
     </StrictMode>,
   </div>
 
