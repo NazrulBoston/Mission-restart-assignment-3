@@ -21,15 +21,18 @@ const InstallProvider = ({ children }) => {
 
   const installApp = (app) => {
     setInstalledApps((prev) => {
-      if (prev.find(item => item.id === app.id)) {
-        return prev;
-      }
+      if (prev.find(item => item.id === app.id)) return prev;
       return [...prev, app];
     });
   };
 
+  // ⭐ NEW: uninstall function
+  const removeApp = (id) => {
+    setInstalledApps(prev => prev.filter(app => app.id !== id));
+  };
+
   return (
-    <InstallContext.Provider value={{ installedApps, installApp }}>
+    <InstallContext.Provider value={{ installedApps, installApp, removeApp }}>
       {children}
     </InstallContext.Provider>
   );

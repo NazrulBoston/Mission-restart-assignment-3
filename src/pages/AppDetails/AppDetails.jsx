@@ -4,6 +4,7 @@ import { FaDownload, FaStar } from "react-icons/fa";
 import { AiTwotoneLike } from "react-icons/ai";
 import { useContext } from "react";
 import { InstallContext } from "../../context/InstallContext";
+import toast from "react-hot-toast";
 
 const AppDetails = () => {
     const appsData = useLoaderData();
@@ -24,6 +25,7 @@ const AppDetails = () => {
     const handleInstall = () => {
         installApp(app);
         navigate("/installation"); 
+        toast.success(`${app.title} installed successfully`);
     };
 
     return (
