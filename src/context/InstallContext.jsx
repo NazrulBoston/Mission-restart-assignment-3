@@ -26,7 +26,7 @@ const InstallProvider = ({ children }) => {
     });
   };
 
-  // ⭐ NEW: uninstall function
+  //  uninstall function
   const removeApp = (id) => {
     setInstalledApps(prev => prev.filter(app => app.id !== id));
   };
